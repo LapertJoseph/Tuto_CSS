@@ -3,16 +3,24 @@ body {
 
 }
 
-.box {
-    display: none;
-    width: 100px;
-    height: 100px;
-    background: violet;
+#p1 {
+    /* display: none; */
+    background: pink;
 }
 
-span {
-    color: black;
-    display: none;
-    background: pink;
-    height: 50px;
-}   
+#p2 {
+    visibility: hidden;
+}
+
+#p3 {
+    opacity: 0;
+}
+
+
+
+
+/* 
+    display none : le paragraphe disparaît du flux et les autres remonte il reste visible dans le DOM.
+    visibility: hidden : le paragraphe disparait cependant on observe un espace entre les deux paragraphe.
+    opacity 0 : le paragraphe disparaît en fonction de la valeur alloué a opacity, met on peut toujours intéragir avec l'élément.
+*/
