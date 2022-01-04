@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background: orange;
+    margin: 50px;                           /* Met 20px de marge au quatre coin de la box*/
+    /* margin: 50px 40px 30px 10px;         /* Autre maniere de faire allant sens horaire*/
+    /* margin: 50px 25px;                   ici on les fait par deux (Haut/bas 50px) et (Gauche/droite 25px) */
+    padding: 50px;                          /* marge à l'interieur de l'élément (en vert dans le devtools)*/
+    border: 5px solid black;              /* Ajouter une bordure à l'élément avec 3 propriétés (taille, type et couleur)*/  
+}
