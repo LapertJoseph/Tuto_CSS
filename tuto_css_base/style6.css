@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+}
+
+.box {
+    /* display: inline; */
+    display: inline-block;
+    /* display: none; */
+    width: 100px;
+    height: 100px;     
+    background: violet;
+}
+/* span {
+    display: block;
+    width: 500px;
+    background: grey;
+} */
+
+
+
+/*
+    on peut changer des éléments block en inline et inversement également
+    avec la propriétés "display:inline" et "display:block"
+    On voit que la box qui était un block est devenue inline car elle prend la taille de son contenu
+    mais aussi que le span prend toute la largeur car on la mis a display block
+*/
+
+/*
+    il existe une 3eme propriété qui est appelé inline-block qui permet deja d'accepter une longueur et
+    une largeur, et ca va également mettre les éléments à la suite des autres.
+    display: none,  permet de faire disparaître les éléments mais ils sont toujours danns le DOM
+
+*/
