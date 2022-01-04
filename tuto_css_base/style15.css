@@ -1,0 +1,28 @@
+body {
+    width:100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;          /* les un a a suite des autres */
+    text-align: center;             /* centrez le texte */
+    padding: 10px 10px;             /* rajouter une marge intérieur */
+    cursor: pointer;                /* rendre le curseur en main sur le btn */
+    font-size: 22px;                /* taille du texte */
+    border-radius: 5px;             /* arrondis sur les boutons */
+    background-color: #007bff;    /*  couleur de fond des boutons*/
+    color: #f1f1f1;               /* couleur du texte*/
+    margin: 5px;                    /* rajoute une marge pour le bouton*/
+}
+
+button {
+    border: none;                   /* enleve le border du button*/
+    outline: none;                  /* ? */
+}
+
+a {
+    text-decoration: none;          /*  enleve l'underline sous le lien*/
+
+}
+
