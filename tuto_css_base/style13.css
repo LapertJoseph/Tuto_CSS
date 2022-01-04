@@ -1,0 +1,40 @@
+body {
+    width:100%;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 1;
+    font-family: sans-serif;
+    color: pink;
+    background: #333;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+p {
+    font-weight: 800;
+    /* white-space: nowrap; */
+    margin: 0;
+    width: 200px;
+    /* text-align: justify; */
+}
+
+
+/* 
+    - color : Couelur du texte
+    - background : le fond de texte
+    - text-align: aligne le texte en fonction de la 
+    - text-align: justify : permet d'avoir les meme hauteur de ligne.
+    - white-space: nowrap: evite le retour à la ligne
+    - text-transform: uppercase : rend tous le texte en MAJ
+    - text-decoration: ajoute des effet au contenu associé
+    - letter-spacing : gere l'écart entre les lettres au contenu associé
+*/
