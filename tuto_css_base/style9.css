@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.carte-img {
+    width: 600px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.bloc-img {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
