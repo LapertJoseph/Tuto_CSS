@@ -7,8 +7,8 @@ body {
     background: orange;
 }
 
-/* .enfant {
+.enfant {
     width: 50px;
     height: 50%;
     background: red;        /* la taille de l'enfant correspond a son parent ici .box*/
-/* } */
+}
