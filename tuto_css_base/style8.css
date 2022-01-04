@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.carte-img {
+    width: 666px;
+    height: 504px;
+    overflow: hidden;
+}
+
+/*
+    Toujours choisir ces images en fonction de son placement dans le html 
+    si l'image dépasse de la box dans le devtool on peut la resize ou bien 
+    utiliser la propriété overflow: hidden pour cacher le surplus.
+*/
