@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.carte-img {
+    width: 70%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+}
+
+.bloc-img {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carte-img h3 {
+    padding: 10px;
+}
+.carte-img p {
+    padding: 0px 10px 10px 10px;
+}
+.carte-img hr {
+    margin-bottom: 15px;
+}
+.carte-img a {
+    padding: 0px 10px;
+}
+
+/*Camel Case*/
+
+/* .maClasseDuContainer */
+/* iPhone ou eBay */
+
+/*---------------------------------------------*/
+
+/* Pascal Case */
+
+/* MaClasseSpeciale */
+/* MasterCard ou PlayStation */
+
+/*---------------------------------------------*/
+
+/* spinal-case ou kebab-case */
+/*  ma-classe-btn-red */
+
+/*---------------------------------------------*/
+
+/* snake case  */
+/* ma_variable_du_container */
+
+/*---------------------------------------------*/
+
+/* Screaming snake case */ 
+
+/* MA_VARIABLE_PRINCIPALE (utilisé en PHP) */
