@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+}
+
+/* .box {
+    width: 250px;
+    height: 250px;
+    background: orange;
+    margin: 50px;                           
+} */
+
+span {  
+    background: orange;     
+    margin: 0px 15px;       /* Ici on voit qu'il y a un décalage entre les spans*/
+    padding: 50px;          /* Ici on voit le paddin met le paddin-top dépasse du navigateur*/
+}
+
+/* Pas de width et de height pour les Inlines       */
+/* margin-top et bottom impossible en inline        */
+/* Inline prend seulement la taille de son contenu  */
