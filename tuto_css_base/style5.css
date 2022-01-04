@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0 auto;     
+    background: violet;
+    box-sizing: border-box;
+}
+
+/* 
+    De base block prend toute la largeur, en lui mettant auto, il va se centrer
+    Cela ne fonctionne que sur X (impossible sur Y)
+*/
