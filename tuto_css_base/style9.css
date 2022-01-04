@@ -8,10 +8,10 @@ body {
 }
 
 .carte-img {
-    width: 600px;
-    height: 550px;
+    width: 70%;
+    height: auto;
     background: rgba(0, 0, 0, 0.2);
-    border: 2px solid black;
+    border: 1px solid #f1f1f1;
     box-sizing: border-box;
 }
 
@@ -20,3 +20,21 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
+.carte-img h3 {
+    padding: 10px;
+}
+.carte-img p {
+    padding: 0px 10px 10px 10px;
+}
+.carte-img hr {
+    margin-bottom: 15px;
+}
+.carte-img a {
+    padding: 0px 10px;
+}
+
+/*
+    lorsqu'on met auto dans height l'image va s'adapter automatiquement au contenu
+    ajouter pour eviter de toucher au height.
+*/
