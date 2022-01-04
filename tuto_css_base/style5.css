@@ -11,8 +11,3 @@ body {
     background: violet;
     box-sizing: border-box;
 }
-
-/* 
-    De base block prend toute la largeur, en lui mettant auto, il va se centrer
-    Cela ne fonctionne que sur X (impossible sur Y)
-*/
