@@ -8,8 +8,14 @@ body {
 }
 
 .carte-img {
-    width: 666px;
-    height: 504px;
+    width: 600px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.bloc-img {
+    height: 70%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -17,4 +23,9 @@ body {
     Toujours choisir ces images en fonction de son placement dans le html 
     si l'image dépasse de la box dans le devtool on peut la resize ou bien 
     utiliser la propriété overflow: hidden pour cacher le surplus.
+*/
+
+/*
+    Pour faire une carte, il faut englober l'image dans une div pour pouvoir 
+    ensuite lui appliquer une info comme dans cette exercice. 
 */
