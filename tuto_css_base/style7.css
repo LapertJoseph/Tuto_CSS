@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+
+}
+
+.box {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: violet;
+}
+
+span {
+    color: black;
+    display: none;
+    background: pink;
+    height: 50px;
+}   
